@@ -106,4 +106,25 @@ h3 {
   .arrow {
     animation-play-state: running;
   }
-  
+ 
+  .btn-primary {
+    border: solid;
+    border-color:#315F2A;
+    border-width: 2px;
+    border-radius: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    letter-spacing: 2px;
+    background-color: #F3EEE7;
+    color:#315F2A;
+    --bs-btn-active-bg: #315F2A;
+    --bs-btn-active-color: #F3EEE7;
+    --bs-btn-active-border-color: #315F2A;
+  }
+  .btn-primary:hover {
+    background-color: #315F2A;
+    color:#F3EEE7;
+    border-width: 2px;
+    border: solid;
+    border-color:#315F2A;
+  }

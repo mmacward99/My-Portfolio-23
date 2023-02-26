@@ -163,6 +163,19 @@ h3 {
   --bs-btn-disabled-border-color: #315F2A;
 }
 
+.btn-primary:focus {
+  border: solid;
+  border-color: #315F2A;
+  border-width: 2px;
+  border-radius: 30px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  letter-spacing: 2px;
+  background-color: #F3EEE7;
+  color: #315F2A;
+  background-color: none;
+}
+
 .btn-primary:hover {
   background-color: #315F2A;
   color: #F3EEE7;

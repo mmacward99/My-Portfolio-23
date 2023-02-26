@@ -42,28 +42,18 @@
   <body>
     
     <header>
-        <nav class="navbar navbar-expand-md fixed-top">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img class="logo" src="./images/logologo.png" alt="Logo" width="30%"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="index.html">PROJECTS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true">CONTACT</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
+      <div class="topnav" id="myTopnav">
+        <a class="navbar-brand" href="index.html"><img class="logo" src="./images/logologo.png" alt="Logo"></a>
+        <ul>
+        <a href="index.html" button class="btn btn-primary">PROJECTS</a>
+       <a href="about.html" button class="btn btn-primary">ABOUT</a>
+       <a href="contact.html" button class="btn btn-primary">CONTACT</a>
+      </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
 
     <br>
     <br>
@@ -104,11 +94,11 @@
 </div> <!-- end row -->
 <br>
 <br>
-<div class="row">
-  <div class="col-lg-6" style="text-align:left;padding-left:75px;">
+<div class="row" style="text-align:center;">
+  <div class="col-lg-6">
     <a href="blackout.html" button class="btn btn-primary"><i class="fa-solid fa-circle-arrow-left"></i> BLACKOUT</button></a>
   </div> <!-- end column -->
-  <div class="col-lg-6" style="text-align:right;padding-right:75px;">
+  <div class="col-lg-6">
     <a href="mcmc.html" button class="btn btn-primary">MY CAUSE MY CLEATS <i class="fa-solid fa-circle-arrow-right"></i></button></a>
 </div> <!-- end column -->
 </div> <!-- end row -->

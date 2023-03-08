@@ -239,4 +239,12 @@ h3 {
     text-align: center;
     align-items: center;
   }
+  .title {
+    -webkit-text-fill-color: hsla(0deg, 0%, 100%, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    font-size: 75px;
+  }
 }/*# sourceMappingURL=style.css.map */

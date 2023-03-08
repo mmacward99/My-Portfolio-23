@@ -232,4 +232,11 @@ h3 {
   .row {
     text-align: center;
   }
+  .featurette-divider {
+    text-align: center;
+  }
+  .intro {
+    text-align: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -5,32 +5,38 @@ a {
     color:#000000;
     text-decoration: none;
 }
+a:visited, a:active, a:focus {
+    color:#000;
+}
 a:hover {
-    color:#254F7B;
+  color:#3A73F6;
 }
 .logo {
     width:35px;
   }
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #F3EEE7;
+    background-color: #EFF4FE;
     overflow: hidden;
+    height: 40px;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     display: block;
-    color: #315F2A;
+    color: #000;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
     margin-left: 25px;
+    background-color: #EFF4FE;
+    border: none;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    color: #F3EEE7;
+    color: #000;
   }
   
   /* Add an active class to highlight the current page */
@@ -44,12 +50,12 @@ a:hover {
     display: none;
   }
 main {
-    background-color: #F3EEE7;
+  background-color: #EFF4FE;
     color:#000000;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 body {
-    background-color: #F3EEE7;
+    background-color: #EFF4FE;
 }
 li {
     margin-right: 100px;
@@ -63,7 +69,15 @@ li {
     font-weight: 400;
 }
 .title {
-    color:#BC403A;
+  -webkit-text-fill-color: hsla(0,0%,100%,0);
+  -webkit-text-stroke-width:1px;
+  -webkit-text-stroke-color: #000;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  font-size: 75px;
+}
+.desc {
+  color:#3A73F6;
 }
 .arrow {
     margin-top:50px;
@@ -76,17 +90,10 @@ li {
 .download {
     text-align: left;
 }
-.box {
-        background-color: #BC403A;
-        width: 100%;
-        padding:25px;
-        color:#F3EEE7;
-        text-align: left;
-}
 .landing {
     text-align: center;
     padding-bottom: 35px;
-    color: #254F7B
+    color: #EECEFC;
 }
 p {
     font-weight: 200;
@@ -121,46 +128,33 @@ h3 {
     animation-play-state: running;
   }
  
-  .btn-primary {
-    border: solid;
-    border-color:#315F2A;
-    border-width: 2px;
-    border-radius: 30px;
+  .btn-mine {
     padding-top: 2px;
     padding-bottom: 2px;
     letter-spacing: 2px;
-    background-color: #F3EEE7;
-    color:#315F2A;
-    --bs-btn-active-bg: #315F2A;
-    --bs-btn-active-color: #F3EEE7;
-    --bs-btn-active-border-color: #315F2A;
-    --bs-btn-bg: #F3EEE7;
-    --bs-btn-border-color: #315F2A;
-    --bs-btn-hover-bg: #F3EEE7;
-    --bs-btn-hover-border-color: #315F2A;
-    --bs-btn-disabled-bg: #F3EEE7;
-    --bs-btn-disabled-border-color: #315F2A;
+    color:#000;
+
   }
-  .btn-primary:focus {
-    border: solid;
-    border-color:#315F2A;
-    border-width: 2px;
-    border-radius: 30px;
+  .btn-mine:focus, .btn-mine:active, .btn-mine:visited  {
     padding-top: 2px;
     padding-bottom: 2px;
     letter-spacing: 2px;
-    background-color: #F3EEE7;
-    color:#315F2A;
-   background-color: none;
+    border: none;
   }
-  .btn-primary:hover {
-    background-color: #315F2A;
-    color:#F3EEE7;
-    border-width: 2px;
-    border: solid;
-    border-color:#315F2A;
+  .btn-mine:hover {
+    background-color: #fff;
+    color:#000;
   }
-  
+  .fa-solid {
+    color: #3A73F6;
+  }
+  .featurette-divider {
+    color:#3A73F6;
+  }
+
+.intro {
+  padding-top:75px;
+}
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
@@ -171,34 +165,36 @@ h3 {
       float: left;
       display: block;
       text-align: left;
+      background-color: #EFF4FE;
+      color:#000;
     }
 
     .topnav {
-        background-color: #F3EEE7;
-        overflow: hidden;
+        background-color: #EFF4FE;
+        color:#000;
       }
       
       /* Style the links inside the navigation bar */
       .topnav a {
         float: left;
         display: block;
-        color: #315F2A;
         text-align: center;
         text-decoration: none;
+        color:#000;
         font-size: 13px;
         margin-left: 10px;
+        background-color: #EFF4FE;
       }
       
       /* Change the color of links on hover */
       .topnav a:hover {
         background-color: none;
-        color: #F3EEE7;
+        color: #000;
       }
       
       /* Add an active class to highlight the current page */
       .topnav a.active {
-        background-color: #04AA6D;
-        color: white;
+        background-color: #EFF4FE;
       }
       
       /* Hide the link that should open and close the topnav on small screens */
@@ -209,5 +205,8 @@ h3 {
         width:30px;
         margin-bottom: 10px;
         margin-right: 5px;
+      }
+      .row {
+        text-align: center;
       }
   }

@@ -1,14 +1,14 @@
 a:link {
-  color: #000000;
+  color: #ffffff;
 }
 
 a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:visited, a:active, a:focus {
-  color: #000;
+  color: #ffffff;
 }
 
 a:hover {
@@ -58,7 +58,6 @@ a:hover {
 main {
   background-color: #EFF4FE;
   color: #000000;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 body {
@@ -80,9 +79,6 @@ li {
 }
 
 .title {
-  -webkit-text-fill-color: hsla(0deg, 0%, 100%, 0);
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #000;
   letter-spacing: 1px;
   white-space: nowrap;
   font-size: 75px;
@@ -110,18 +106,6 @@ li {
   text-align: center;
   padding-bottom: 35px;
   color: #EECEFC;
-}
-
-p {
-  font-weight: 200;
-}
-
-h1 {
-  font-weight: 600;
-}
-
-h3 {
-  font-weight: 600;
 }
 
 .fade-in {
@@ -181,6 +165,36 @@ h3 {
   padding-top: 75px;
 }
 
+.scroll {
+  width: 250px;
+  height: 25px;
+  background-color: #3A73F6;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 5px;
+  border-radius: 30px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+
+.back {
+  width: 130px;
+  height: 25px;
+  background-color: #3A73F6;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 5px;
+  border-radius: 30px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.mcmc-intro {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
   .topnav.responsive {
@@ -237,14 +251,24 @@ h3 {
   }
   .intro {
     text-align: center;
-    align-items: center;
   }
   .title {
-    -webkit-text-fill-color: hsla(0deg, 0%, 100%, 0);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
-    letter-spacing: 1px;
-    white-space: nowrap;
-    font-size: 50px;
+    text-align: center;
+  }
+  .scroll {
+    width: 230px;
+    height: 25px;
+    background-color: #3A73F6;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 30px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-left: 120px;
+  }
+  .picture {
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
